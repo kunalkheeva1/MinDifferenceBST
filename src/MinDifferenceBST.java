@@ -10,7 +10,7 @@ public class MinDifferenceBST {
             this.right = right;
         }
     }
-
+//method for min difference
     static int minDifferenceBST(Node root, int target){
         if(root== null) return -1;
         int ans = Integer.MAX_VALUE;
